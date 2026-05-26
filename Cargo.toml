@@ -1,0 +1,16 @@
+[package]
+name = "diffraction_simulation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.19"
+winit = "0.29"
+egui = "0.26"
+egui-wgpu = "0.26"
+egui-winit = "0.26"
+bytemuck = { version = "1.16", features = ["derive"] }
+pollster = "0.3"
+env_logger = "0.11"
+log = "0.4"
+glam = "0.25"
